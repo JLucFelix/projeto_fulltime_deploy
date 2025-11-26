@@ -322,7 +322,7 @@ elif selected == "Sobre Nós":
         {"nome": "Henrique", "ra": "1992437", "funcao": "Documentação", "insta": "rick.grram"},
         {"nome": "Jean", "ra": "2012388", "funcao": "Front-end", "insta": "jeanlucflx"},
         {"nome": "João", "ra": "1993739", "funcao": "QA & Dados", "insta": "Nissimura_"},
-        {"nome": "Kaique", "ra": "1994836", "funcao": "QA & Dados", "insta": "kaikerenan11"},
+        {"nome": "Kaike", "ra": "1994836", "funcao": "QA & Dados", "insta": "kaikerenan11"},
         {"nome": "Leonardo", "ra": "1995657", "funcao": "QA & Dados", "insta": "toledx"},
         {"nome": "Maria Elisa", "ra": "2013350", "funcao": "Front-end", "insta": "mary_elisa7"}
     ]
