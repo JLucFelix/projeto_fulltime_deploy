@@ -2,6 +2,7 @@ streamlit
 pandas
 psycopg2-binary
 plotly
-lightgbm
+lightgbm==4.6.0
 faker
 numpy
+scikit-learn==1.7.1
