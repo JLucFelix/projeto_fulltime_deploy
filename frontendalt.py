@@ -21,11 +21,12 @@ def init_connection():
     """
     try:
         return psycopg2.connect(
-            host="localhost",
-            port="5433",
-            user="postgres",
-            password="1234",
-            database="ANALISE"
+            host=st.secrets["DB_HOST"],
+            database=st.secrets["DB_NAME"],
+            user=st.secrets["DB_USER"],
+            password=st.secrets["DB_PASS"],
+            port=st.secrets.get("DB_PORT", "5432"),
+            sslmode="require"
         )
     except Exception:
         return None
